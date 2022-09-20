@@ -5,8 +5,8 @@ const Home = () => {
 
   return (
     <Row className="p-0 home">
-      <Col xs={12}>
-        <h1 >MyLibrary</h1>
+      <Col xs={12} className="pt-2">
+        <h1>MyLibrary</h1>
       </Col>
       <Col xs={12}>
         <Image src={LibraryImage} className="img"></Image>
